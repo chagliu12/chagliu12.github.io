@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin: 0;
+ padding: 0}
+.phanhai {
+	display: flex;
+	justify-content: space-around;
+	background-image: url(nen-01.jpg);
+	align-items: center;
+	height: 715px;
+	padding-left: 40px;
+	position: relative;
+}
+.benphai img {
+	height: 250px;
+	margin-top: 50px;
+	border-radius: 5px; 
+}
+.benphai {
+	width: 60%;
+	display: flex; 
+}
+.anhday1 {
+	flex-direction: column;
+	display: flex;
+	margin: 0px 50px;
+	
+}
+.anhday2 {
+	flex-direction: column;
+	display: flex;
+	margin: 60px 60px;
+}
+.anhday3 {
+	flex-direction: column;
+	display: flex;
+	margin: 0px 50px;
+}
+.bentrai {
+	box-shadow: 0px 0px 13px 0px #A48C74;
+	padding: 40px 30px 40px 30px;
+	border-radius: 20px;
+}
+.bentrai p {
+	line-height: 30px;
+	margin-top: 40px;
+}
+.home {
+	position: absolute;
+	top: 15px;
+	left: 15px;
+}
+.home img{
+	width: 20px;
+}
+
